@@ -4,8 +4,8 @@
       Title="Login">
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBox ToolTip="Enter your username" Margin="0,5"/>
-            <PasswordBox Margin="0,5"/>
+            <TextBox x:Name="UsernameTextBox" ToolTip="Enter your username" Margin="0,5"/>
+            <PasswordBox x:Name="PasswordBox" Margin="0,5"/>
             <Button Content="Login" Click="LoginButton_Click" Margin="0,5"/>
         </StackPanel>
     </Grid>

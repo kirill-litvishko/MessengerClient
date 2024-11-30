@@ -3,10 +3,6 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       Title="Chats">
     <Grid>
-        <ListBox>
-            <ListBoxItem>Chat 1</ListBoxItem>
-            <ListBoxItem>Chat 2</ListBoxItem>
-            <ListBoxItem>Chat 3</ListBoxItem>
-        </ListBox>
+        <ListBox ItemsSource="{Binding Chats}" DisplayMemberPath="Name"/>
     </Grid>
 </Page>
