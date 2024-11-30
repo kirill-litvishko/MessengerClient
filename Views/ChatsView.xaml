@@ -1,0 +1,12 @@
+﻿<Page x:Class="MessengerClient.Views.ChatsView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Chats">
+    <Grid>
+        <ListBox>
+            <ListBoxItem>Chat 1</ListBoxItem>
+            <ListBoxItem>Chat 2</ListBoxItem>
+            <ListBoxItem>Chat 3</ListBoxItem>
+        </ListBox>
+    </Grid>
+</Page>

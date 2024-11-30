@@ -1,0 +1,12 @@
+﻿<Page x:Class="MessengerClient.Views.LoginView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Login">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBox ToolTip="Enter your username" Margin="0,5"/>
+            <PasswordBox Margin="0,5"/>
+            <Button Content="Login" Click="LoginButton_Click" Margin="0,5"/>
+        </StackPanel>
+    </Grid>
+</Page>
